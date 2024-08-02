@@ -16,6 +16,12 @@ namespace ERP3000.Controllers
             _serviceManager = serviceManager;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Order>>> GetAllOrders()
+        {
+            var orders = await _serviceManager.OrderService.GetAll(trackChanges:false);
+            return Ok(orders);
+        }
         [HttpGet("{Id}")]
         public async Task<ActionResult<Order>> GetByCondiction(Guid Id)
         {

@@ -10,15 +10,15 @@ public class OrderRepository : BaseRepository<Order>, IOrderRepository
         : base(context)
     {
     }
+    public async Task<IEnumerable<Order>> GetAll(bool trackChanges)
+    {
+        var orders = await FindAll(trackChanges).ToListAsync();
+        return orders;
+    }
 
     public async Task<Order> GetByCondiction(Guid OrderId, bool trackChanges)
     {
         var order = await FindByCondiction(c => c.OrderId == OrderId, trackChanges).FirstOrDefaultAsync();
         return order!;
-    }
-
-    public async Task<IEnumerable<Order>> GetAll(bool trackChanges)
-    {
-        throw new NotImplementedException();
     }
 }
