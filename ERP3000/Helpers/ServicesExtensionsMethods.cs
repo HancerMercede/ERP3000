@@ -1,4 +1,7 @@
-﻿namespace ERP3000.Helpers;
+﻿using ERP3000.Repository;
+using Microsoft.EntityFrameworkCore;
+
+namespace ERP3000.Helpers;
 
 public static class ServicesExtensionsMethods
 {
@@ -12,4 +15,12 @@ public static class ServicesExtensionsMethods
                 .AllowAnyHeader();
             });
         });
+
+    public static void ConfiguredSqlServerContext(this IServiceCollection services, string connection)
+    {
+        services.AddDbContext<ApplicationDbContext>(options =>
+        {
+            options.UseSqlServer(connection);
+        });
+    }
 }

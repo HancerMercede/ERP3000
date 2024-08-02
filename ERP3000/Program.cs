@@ -1,11 +1,14 @@
 using ERP3000.EndPoints;
+using ERP3000.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var connection = builder.Configuration.GetConnectionString("dbConnection")!;
+builder.Services.ConfiguredCors();
+builder.Services.ConfiguredSqlServerContext(connection);
 
 var app = builder.Build();
 
