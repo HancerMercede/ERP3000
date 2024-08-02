@@ -1,0 +1,12 @@
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\bin\Debug\net8.0\ERP3000.Entities.deps.json
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\bin\Debug\net8.0\ERP3000.Entities.dll
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\bin\Debug\net8.0\ERP3000.Entities.pdb
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.AssemblyInfoInputs.cache
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.AssemblyInfo.cs
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.csproj.CoreCompileInputs.cache
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.sourcelink.json
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.dll
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\refint\ERP3000.Entities.dll
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ERP3000.Entities.pdb
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000.Entities\obj\Debug\net8.0\ref\ERP3000.Entities.dll

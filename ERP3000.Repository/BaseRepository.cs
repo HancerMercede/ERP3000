@@ -6,8 +6,8 @@ namespace ERP3000.Repository;
 
 public abstract class BaseRepository<T> : IBaseRepository<T> where T : class
 {
-    private readonly ApplicationDbContext _context;
-    protected BaseRepository(ApplicationDbContext context) => _context = context;
+    protected ApplicationDbContext _context;
+    public BaseRepository(ApplicationDbContext context) => _context = context;
 
 
     public IQueryable<T> GetAll(bool trackChanges) =>
