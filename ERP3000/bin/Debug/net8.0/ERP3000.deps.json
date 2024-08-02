@@ -9,6 +9,7 @@
       "ERP3000/1.0.0": {
         "dependencies": {
           "ERP3000.Repository": "1.0.0",
+          "ERP3000.Service": "1.0.0",
           "Mapster": "7.4.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.7",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -597,6 +598,14 @@
         "runtime": {
           "ERP3000.Repository.dll": {}
         }
+      },
+      "ERP3000.Service/1.0.0": {
+        "dependencies": {
+          "ERP3000.Repository": "1.0.0"
+        },
+        "runtime": {
+          "ERP3000.Service.dll": {}
+        }
       }
     }
   },
@@ -1060,6 +1069,11 @@
       "sha512": ""
     },
     "ERP3000.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ERP3000.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

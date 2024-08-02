@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ERP3000.Entities;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace ERP3000.Repository;
@@ -10,9 +11,12 @@ public class ApplicationDbContext:DbContext
         
     }
 
+    public DbSet<Order> orders { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+        modelBuilder.Entity<Order>().ToTable("Orders", "Financials");
     }
 }

@@ -76,3 +76,5 @@ C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000\bin\Debug\net8.0\ERP3000.Re
 C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000\bin\Debug\net8.0\ERP3000.Repository.pdb
 C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000\bin\Debug\net8.0\ERP3000.Entities.pdb
 C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000\obj\Debug\net8.0\ERP3000.sourcelink.json
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000\bin\Debug\net8.0\ERP3000.Service.dll
+C:\Users\HANCER MERCEDE\source\repos\ERP3000\ERP3000\bin\Debug\net8.0\ERP3000.Service.pdb

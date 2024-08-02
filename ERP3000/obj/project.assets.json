@@ -1138,6 +1138,19 @@
         "runtime": {
           "bin/placeholder/ERP3000.Repository.dll": {}
         }
+      },
+      "ERP3000.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ERP3000.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ERP3000.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ERP3000.Service.dll": {}
+        }
       }
     }
   },
@@ -3271,11 +3284,17 @@
       "type": "project",
       "path": "../ERP3000.Repository/ERP3000.Repository.csproj",
       "msbuildProject": "../ERP3000.Repository/ERP3000.Repository.csproj"
+    },
+    "ERP3000.Service/1.0.0": {
+      "type": "project",
+      "path": "../ERP3000.Service/ERP3000.Service.csproj",
+      "msbuildProject": "../ERP3000.Service/ERP3000.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "ERP3000.Repository >= 1.0.0",
+      "ERP3000.Service >= 1.0.0",
       "Mapster >= 7.4.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.7",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -3316,6 +3335,9 @@
           "projectReferences": {
             "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\ERP3000.Repository.csproj": {
               "projectPath": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\ERP3000.Repository.csproj"
+            },
+            "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Service\\ERP3000.Service.csproj": {
+              "projectPath": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Service\\ERP3000.Service.csproj"
             }
           }
         }

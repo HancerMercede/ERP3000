@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ERP3000.Repository\ERP3000.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
