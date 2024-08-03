@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,6 +61,14 @@
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "RepositoryManager.cs",
@@ -70,8 +78,7 @@
               "RelativeToolTip": "ERP3000.Repository\\RepositoryManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:59:41.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:59:41.296Z"
             },
             {
               "$type": "Document",
@@ -83,8 +90,7 @@
               "RelativeToolTip": "ERP3000.Repository\\Conctracts\\IProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:58:08.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:58:08.859Z"
             },
             {
               "$type": "Document",
@@ -96,8 +102,7 @@
               "RelativeToolTip": "ERP3000.Entities\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:56:38.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:56:38.628Z"
             },
             {
               "$type": "Document",
@@ -109,8 +114,7 @@
               "RelativeToolTip": "ERP3000.Repository\\OrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:57:44.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:57:44.881Z"
             },
             {
               "$type": "Document",
@@ -120,7 +124,7 @@
               "RelativeDocumentMoniker": "ERP3000.Repository\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\ProductRepository.cs",
               "RelativeToolTip": "ERP3000.Repository\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T01:55:48.359Z",
               "EditorCaption": ""
@@ -135,8 +139,7 @@
               "RelativeToolTip": "ERP3000.Service\\Contracts\\IProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:55:39.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:55:39.694Z"
             },
             {
               "$type": "Document",
@@ -148,8 +151,7 @@
               "RelativeToolTip": "ERP3000.Service\\ProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:55:30.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:55:30.579Z"
             },
             {
               "$type": "Document",
@@ -161,8 +163,7 @@
               "RelativeToolTip": "ERP3000\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T01:55:19.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T01:55:19.488Z"
             }
           ]
         }
