@@ -9,6 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var connection = builder.Configuration.GetConnectionString("dbConnection")!;
+
 builder.Services.ConfiguredCors();
 builder.Services.ConfiguredSqlServerContext(connection);
 builder.Services.ConfigureRepositoryManager();

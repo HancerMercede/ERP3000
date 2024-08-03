@@ -12,12 +12,12 @@ public class OrderService : IOrderService
     {
         _repositoryManager = repositoryManager;
     }
-    public Task<Order> CreateCompany(Order order)
+    public Task<Order> CreateOrder(Order order)
     {
         throw new NotImplementedException();
     }
 
-    public Task DeleteCompany(Guid Id, bool trackChanges)
+    public Task DeleteOrder(Guid Id, bool trackChanges)
     {
         throw new NotImplementedException();
     }
