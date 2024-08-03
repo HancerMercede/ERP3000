@@ -3,6 +3,6 @@
 public interface IRepositoryManager
 {
     IOrderRepository Order { get; }
-
+    IProductRepository Product { get; }
     Task Save();
 }
