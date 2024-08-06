@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\helpers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\helpers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,32 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Helpers\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "ERP3000\\Helpers\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Helpers\\GlobalUsings.cs",
-              "RelativeToolTip": "ERP3000\\Helpers\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:56:50.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ERP3000\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ERP3000\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAIwCUAAAAEAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T15:48:54.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "ERP3000\\Controllers\\OrderController.cs",
