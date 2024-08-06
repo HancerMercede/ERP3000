@@ -12,19 +12,20 @@ public class OrderService : IOrderService
     {
         _repositoryManager = repositoryManager;
     }
-    public Task<Order> CreateCompany(Order order)
+    public Task<Order> CreateOrder(Order order)
     {
         throw new NotImplementedException();
     }
 
-    public Task DeleteCompany(Guid Id, bool trackChanges)
+    public Task DeleteOrder(Guid Id, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<Order>> GetAll(bool trackChanges)
+    public async Task<IEnumerable<Order>> GetAll(bool trackChanges)
     {
-        throw new NotImplementedException();
+        var orders = await _repositoryManager.Order.GetAll(trackChanges);
+        return orders;
     }
 
     public async Task<Order> GetByCondiction(Guid Id, bool trackChanges)
@@ -38,8 +39,5 @@ public class OrderService : IOrderService
         throw new NotImplementedException();
     }
 
-    public Task SaveChanges()
-    {
-        throw new NotImplementedException();
-    }
+    public Task SaveChanges() => _repositoryManager.Save();
 }

@@ -10,7 +10,7 @@ public abstract class BaseRepository<T> : IBaseRepository<T> where T : class
     public BaseRepository(ApplicationDbContext context) => _context = context;
 
 
-    public IQueryable<T> GetAll(bool trackChanges) =>
+    public IQueryable<T> FindAll(bool trackChanges) =>
     !trackChanges ?
        _context.Set<T>().AsNoTracking()
          : _context.Set<T>();
