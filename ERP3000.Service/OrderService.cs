@@ -39,8 +39,5 @@ public class OrderService : IOrderService
         throw new NotImplementedException();
     }
 
-    public Task SaveChanges()
-    {
-        throw new NotImplementedException();
-    }
+    public Task SaveChanges() => _repositoryManager.Save();
 }

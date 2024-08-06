@@ -38,8 +38,5 @@ public class ProductService : IProductService
         throw new NotImplementedException();
     }
 
-    public Task SaveChanges()
-    {
-        throw new NotImplementedException();
-    }
+    public Task SaveChanges() => _repositoryManager.Save();
 }
