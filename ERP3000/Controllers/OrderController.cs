@@ -1,8 +1,4 @@
-﻿using ERP3000.Entities;
-using ERP3000.Repository.Conctracts;
-using ERP3000.Service.Contracts;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿
 
 namespace ERP3000.Controllers;
 
