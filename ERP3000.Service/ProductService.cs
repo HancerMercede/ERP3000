@@ -28,9 +28,9 @@ public class ProductService : IProductService
         return products;
     }
 
-    public Task<Product> GetByCondiction(Guid Id, bool trackChanges)
+    public async Task<Product> GetByCondiction(string Id, bool trackChanges)
     {
-        throw new NotImplementedException();
+        return await _repositoryManager.Product.GetByCondiction(Id, trackChanges);
     }
 
     public Task<IEnumerable<Product>> GetByIds(IEnumerable<Guid> Ids, bool trackChanges)
