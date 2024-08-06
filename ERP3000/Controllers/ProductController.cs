@@ -1,10 +1,4 @@
-﻿using ERP3000.DTOs;
-using ERP3000.Entities;
-using ERP3000.Service.Contracts;
-using Mapster;
-using Microsoft.AspNetCore.Mvc;
-
-namespace ERP3000.Controllers;
+﻿namespace ERP3000.Controllers;
 
 [Route("api/[Controller]")]
 [ApiController]
