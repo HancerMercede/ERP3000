@@ -10,6 +10,7 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
     {
     }
 
+
     public async Task<IEnumerable<Product>> GetAll(bool trackChanges) {
         var products = await FindAll(trackChanges).ToListAsync();
         return products;
@@ -19,5 +20,12 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
         var product = await FindByCondiction(p=>p.ProductId == ProductId, trackChanges).FirstOrDefaultAsync();
         return product!;
     }
+
+    public Task DeleteProduct(string Id)
+    {
+        throw new NotImplementedException();
+    }
+
+
 }
 

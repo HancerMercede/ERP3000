@@ -6,4 +6,5 @@ public interface IProductRepository
 {
     Task<IEnumerable<Product>> GetAll(bool trackChanges);
     Task<Product> GetByCondiction(string ProductId, bool trackChanges);
+    Task DeleteProduct(string Id);
 }
