@@ -12,14 +12,14 @@ public class ProductService : IProductService
     {
         _repositoryManager = repositoryManager;
     }
-    public Task<Product> CreateProduct(Product order)
+    public Task CreateProduct(Product model)
     {
-        throw new NotImplementedException();
+        return _repositoryManager.Product.CreateProduct(model);
     }
 
-    public Task DeleteProduct(Guid Id, bool trackChanges)
+    public async Task DeleteProduct(string Id, bool trackChanges)
     {
-        throw new NotImplementedException();
+        await _repositoryManager.Product.DeleteProduct(Id, trackChanges);
     }
 
     public async Task<IEnumerable<Product>> GetAll(bool trackChanges)

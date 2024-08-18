@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\helpers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\helpers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{647236D0-2039-4197-869A-5B982328CC5D}|ERP3000.Service\\ERP3000.Service.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647236D0-2039-4197-869A-5B982328CC5D}|ERP3000.Service\\ERP3000.Service.csproj|solutionrelative:erp3000.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2AE7050F-1251-45CC-8F49-AEC7C7BD342F}|ERP3000.Repository\\ERP3000.Repository.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000.repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE7050F-1251-45CC-8F49-AEC7C7BD342F}|ERP3000.Repository\\ERP3000.Repository.csproj|solutionrelative:erp3000.repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647236D0-2039-4197-869A-5B982328CC5D}|ERP3000.Service\\ERP3000.Service.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000.service\\contracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647236D0-2039-4197-869A-5B982328CC5D}|ERP3000.Service\\ERP3000.Service.csproj|solutionrelative:erp3000.service\\contracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE7050F-1251-45CC-8F49-AEC7C7BD342F}|ERP3000.Repository\\ERP3000.Repository.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000.repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE7050F-1251-45CC-8F49-AEC7C7BD342F}|ERP3000.Repository\\ERP3000.Repository.csproj|solutionrelative:erp3000.repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE7050F-1251-45CC-8F49-AEC7C7BD342F}|ERP3000.Repository\\ERP3000.Repository.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000.repository\\conctracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE7050F-1251-45CC-8F49-AEC7C7BD342F}|ERP3000.Repository\\ERP3000.Repository.csproj|solutionrelative:erp3000.repository\\conctracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|c:\\users\\hancer mercede\\source\\repos\\erp3000\\erp3000\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F71694D-2C48-42A4-8605-07C2643A7861}|ERP3000\\ERP3000.csproj|solutionrelative:erp3000\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +70,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Helpers\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "ERP3000\\Helpers\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Helpers\\GlobalUsings.cs",
-              "RelativeToolTip": "ERP3000\\Helpers\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "ERP3000.Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\BaseRepository.cs",
+              "RelativeToolTip": "ERP3000.Repository\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:56:50.544Z",
+              "WhenOpened": "2024-08-18T22:17:35.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Service\\Contracts\\IProductService.cs",
+              "RelativeDocumentMoniker": "ERP3000.Service\\Contracts\\IProductService.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Service\\Contracts\\IProductService.cs",
+              "RelativeToolTip": "ERP3000.Service\\Contracts\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T21:49:19.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\Conctracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ERP3000.Repository\\Conctracts\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\Conctracts\\IProductRepository.cs",
+              "RelativeToolTip": "ERP3000.Repository\\Conctracts\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T21:44:53.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "ERP3000.Repository\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Repository\\RepositoryManager.cs",
+              "RelativeToolTip": "ERP3000.Repository\\RepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T21:43:56.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ERP3000\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ERP3000\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T21:38:57.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ERP3000\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "ERP3000\\DTOs\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T21:38:11.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\DTOs\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "ERP3000\\DTOs\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\DTOs\\ProductCreateDto.cs",
+              "RelativeToolTip": "ERP3000\\DTOs\\ProductCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T21:22:13.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "ERP3000.Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000.Service\\ProductService.cs",
+              "RelativeToolTip": "ERP3000.Service\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:30:00.255Z",
               "EditorCaption": ""
             },
             {
@@ -61,22 +173,21 @@
               "RelativeDocumentMoniker": "ERP3000\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ERP3000\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAIwCUAAAAEAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAcwIUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:48:54.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T15:48:54.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "ERP3000\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "ERP3000\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\DTOs\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "ERP3000\\DTOs\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HANCER MERCEDE\\source\\repos\\ERP3000\\ERP3000\\DTOs\\ProductUpdateDto.cs",
+              "RelativeToolTip": "ERP3000\\DTOs\\ProductUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:48:53.078Z"
+              "WhenOpened": "2024-08-18T22:02:28.915Z"
             }
           ]
         }
