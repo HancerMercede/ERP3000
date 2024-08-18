@@ -1,4 +1,7 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ERP3000.Controllers;
 
@@ -45,14 +48,14 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost(Name = "Create a new product")]
-    public async Task<ActionResult<ProductDto>> CreateProduct([FromForm]ProductCreateDto model)
+    public async Task<ActionResult<ProductDto>> CreateProduct([FromForm] ProductCreateDto model)
     {
         try
         {
             if (model is null) return BadRequest("The product can not be null");
-            
+
             _logger.LogInformation("Creating the default Id");
-            model.ProductId =  Guid.NewGuid().ToString();
+            model.ProductId = Guid.NewGuid().ToString();
 
             var dbEntity = model.Adapt<Product>();
 
@@ -68,12 +71,11 @@ public class ProductController : ControllerBase
 
             throw;
         }
-    
+
     }
 
-
     [HttpPut]
-    public async Task<IActionResult> Update(string Id, [FromBody] ProductUpdateDto modelToUpdate)
+    public async Task<ActionResult<ProductDto>> Update(string Id, [FromBody] ProductUpdateDto modelToUpdate)
     {
         if (modelToUpdate is null)
         {
@@ -82,16 +84,21 @@ public class ProductController : ControllerBase
         }
 
         var modelEntity = await _serviceManager.ProductService.GetByCondiction(Id, trackChanges: true);
+
+        modelToUpdate.Adapt(modelEntity);
+
         if (modelEntity is null)
         {
             _logger.LogInformation($"The model with id:{Id} does not exist in the database, please verify.");
             return BadRequest($"The model with id:{Id} does not exist in the database, please verify.");
         }
 
-        modelToUpdate.Adapt(modelEntity);
         await _serviceManager.ProductService.SaveChanges();
 
-        return NoContent();
+
+        var dto = modelEntity.Adapt<ProductDto>();
+
+        return Ok(dto);
     }
 
     [HttpDelete("{Id}")]
@@ -104,7 +111,7 @@ public class ProductController : ControllerBase
 
             _logger.LogInformation("Deleting the product.");
             await _serviceManager.ProductService.DeleteProduct(Id, trackChanges: true);
-           
+
             await _serviceManager.ProductService.SaveChanges();
 
             return NoContent();
@@ -114,7 +121,29 @@ public class ProductController : ControllerBase
             _logger.LogError($"Error:{ex.Message}");
             throw new Exception(ex.Message);
         }
-       
+
+    }
+
+    [HttpPut("{Id} {Quantity}", Name ="UpdateQuantity")]
+    public async Task<IActionResult> UpdateQuantity(string Id,  int Quantity) 
+    {
+        if (Id is null) return BadRequest();
+
+        var modelEntity = await _serviceManager.ProductService.GetByCondiction(Id, trackChanges: true);
+
+        modelEntity.Quantity += Quantity;
+         
+
+        if (modelEntity is null)
+        {
+            _logger.LogInformation($"The model with id:{Id} does not exist in the database, please verify.");
+            return BadRequest($"The model with id:{Id} does not exist in the database, please verify.");
+        }
+
+        await _serviceManager.ProductService.SaveChanges();
+
+        return NoContent();
+
     }
 }
 
