@@ -17,13 +17,19 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
     }
     public async Task<Product> GetByCondiction(string ProductId, bool trackChanges)
     {
-        var product = await FindByCondiction(p=>p.ProductId == ProductId, trackChanges).FirstOrDefaultAsync();
+        var product = await FindByCondiction(p => p.ProductId == ProductId, trackChanges).FirstOrDefaultAsync();
         return product!;
     }
 
-    public Task DeleteProduct(string Id)
+    public  async Task CreateProduct(Product model)
     {
-        throw new NotImplementedException();
+        await Create(model);
+    }
+
+    public async Task DeleteProduct(string Id, bool trackChanges)
+    {
+        var dbEntity = await GetByCondiction(Id, trackChanges: false);
+        await Delete(dbEntity);
     }
 
 

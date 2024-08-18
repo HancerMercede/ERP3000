@@ -1,4 +1,6 @@
-﻿namespace ERP3000.Controllers;
+﻿using Microsoft.IdentityModel.Tokens;
+
+namespace ERP3000.Controllers;
 
 [Route("api/[Controller]")]
 [ApiController]
@@ -31,9 +33,45 @@ public class ProductController : ControllerBase
     public async Task<ActionResult<ProductDto>> GetById(string Id)
     {
         var productEntity = await _serviceManager.ProductService.GetByCondiction(Id, trackChanges: false);
+
+        _logger.LogInformation("Returning not found if the product does not exist.");
+        if (productEntity is null) return NotFound($"The product with Id:{Id} does not exist.");
+
+        _logger.LogInformation("Adapting the product.");
         var productDto = productEntity.Adapt<ProductDto>();
+
+        _logger.LogInformation("Returning teh product.");
         return Ok(productDto);
     }
+
+    [HttpPost(Name = "Create a new product")]
+    public async Task<ActionResult<ProductDto>> CreateProduct([FromForm]ProductCreateDto model)
+    {
+        try
+        {
+            if (model is null) return BadRequest("The product can not be null");
+            
+            _logger.LogInformation("Creating the default Id");
+            model.ProductId =  Guid.NewGuid().ToString();
+
+            var dbEntity = model.Adapt<Product>();
+
+            await _serviceManager.ProductService.CreateProduct(dbEntity);
+            await _serviceManager.ProductService.SaveChanges();
+
+            var productDto = dbEntity.Adapt<ProductDto>();
+
+            return new CreatedAtRouteResult("GetProduct", new { Id = model.ProductId }, model);
+        }
+        catch (Exception)
+        {
+
+            throw;
+        }
+    
+    }
+
+
     [HttpPut]
     public async Task<IActionResult> Update(string Id, [FromBody] ProductUpdateDto modelToUpdate)
     {
@@ -54,6 +92,29 @@ public class ProductController : ControllerBase
         await _serviceManager.ProductService.SaveChanges();
 
         return NoContent();
+    }
+
+    [HttpDelete("{Id}")]
+    public async Task<IActionResult> Delete(string Id)
+    {
+        try
+        {
+            _logger.LogInformation("Returning bad request, if the product id is null.");
+            if (Id.IsNullOrEmpty()) return BadRequest($"the Id can be null");
+
+            _logger.LogInformation("Deleting the product.");
+            await _serviceManager.ProductService.DeleteProduct(Id, trackChanges: true);
+           
+            await _serviceManager.ProductService.SaveChanges();
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError($"Error:{ex.Message}");
+            throw new Exception(ex.Message);
+        }
+       
     }
 }
 
